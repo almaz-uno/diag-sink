@@ -1,0 +1,15 @@
+= Diagnostic sink
+
+Just simple tool for receiving the debug events and redirects them to the file (or pipe, if any).
+
+== Building
+
+. link:https://go.dev/doc/install[Download and install Go v1.21 or above]
+. Run `go build` from inside root directory. Please, look at build.bash file for example.
+. Use building results
+
+== Running
+
+Just run `diag-sink -h` to investigate CLI options.
+
+Enjoy.
