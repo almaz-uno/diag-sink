@@ -12,4 +12,10 @@ Just simple tool for receiving the debug events and redirects them to the file (
 
 Just run `diag-sink -h` to investigate CLI options.
 
+== Using
+
+The application exposes the only `POST /sink` endpoint. Special thanks to creators link:https://github.com/labstack/echo[labstack/echo] library.
+
+The application copies body stream to the `output` file followed by `\n`. The output file is been opening and closing each writing to it. So, it can be moved between writings.
+
 Enjoy.
