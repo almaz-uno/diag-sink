@@ -2,7 +2,7 @@
 
 cd $(dirname $(realpath $0))
 
-EXE=diag-sink
+EXE=diag-sink-$(git describe --tags --abbrev=0)
 
 mkdir -p .build
 
